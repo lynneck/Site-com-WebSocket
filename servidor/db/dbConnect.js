@@ -7,6 +7,7 @@ const cliente = new MongoClient(process.env.CONEXAO);
 let documentosColecao, usuariosColecao;
 
 
+
 try {
 
     await cliente.connect();
